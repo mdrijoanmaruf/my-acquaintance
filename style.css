@@ -1,0 +1,121 @@
+/* This is header CSS */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: black;
+}
+.img-ico{
+    height: 40px;
+    background-color: white;
+    margin: 19px;
+    border: 2px solid white;
+    border-radius: 24px;
+}
+.head{
+    display: grid;
+    grid-template-columns: 87vw auto auto;
+    
+}
+.name-title{
+    font-size: 47px;
+    padding: 10px;
+}
+/* This is body CSS */
+.title-h1{
+    text-align: center;
+    font-size: 45px;
+}
+.body1{
+    margin-top: 40px;
+}
+.hr1 , .hr2{
+    margin: auto;
+    height: 4px;
+}
+.hr1{
+    width: 370px;
+    margin-top: 10px;
+    color: black;
+    background: black;
+    border-radius: 20px;
+}
+.hr2{
+    width: 300px;
+    margin-top: 6px;
+    color: black;
+    background: black;
+    border-radius: 20px;
+}
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.my-img{
+    width: 35vw;
+    border-radius: 20px;
+}
+.box{
+    height: 400px;
+    width: 500px;
+    /* background-color: aquamarine; */
+}
+.box-img , .box{
+    padding: 50px;
+}
+.box-titl{
+    text-align: center;
+    margin: 20px;
+    font-size: 28px;
+    margin-top: 60px;
+}
+.text1{
+    padding: 30px;
+    line-height: 27px;
+}
+.creation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.crea1{
+    width: 500px;
+    /* background-color: bisque; */
+    margin: 20px;
+}
+.crea2{
+    width: 500px;
+    /* background-color: aqua; */
+    margin: 20px;
+}
+.web-img{
+    width: 500px;
+    border-radius: 20px;
+}
+.creah1{
+    text-align: center;
+    margin: 20px;
+}
+footer{
+    height: 9vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.foot{
+    text-align: center;
+    padding: 20px;
+}
+.a.foot{
+    color: white;
+}

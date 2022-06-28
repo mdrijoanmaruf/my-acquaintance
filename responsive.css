@@ -1,0 +1,27 @@
+@media screen and (max-width:600px){
+    .name-title{
+        font-size: 26px;
+        padding: 10px;
+        margin-top: 16px;
+    }
+    .head{
+        grid-template-columns: 62vw 63px auto;
+        
+    }
+    .my-img{
+        height: auto;
+        width: 100%;
+    }
+    .box-titl{
+        margin-top: 0px;
+        text-align: left;
+    }
+    .text1{
+        padding: 10px;
+        line-height: 25px;
+    }
+    .web-img{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
